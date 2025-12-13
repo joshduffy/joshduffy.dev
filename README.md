@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# joshduffy.dev
+
+Personal portfolio website built with Next.js 14, TypeScript, and Tailwind CSS.
+
+## Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18.17 or later
+- npm, yarn, or pnpm
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/joshduffy/joshduffy.dev.git
+cd joshduffy.dev
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run ESLint
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── fonts/        # Local fonts (Geist)
+│   ├── globals.css   # Global styles
+│   ├── layout.tsx    # Root layout
+│   └── page.tsx      # Home page
+└── components/
+    ├── About.tsx     # About section
+    ├── Footer.tsx    # Footer component
+    ├── Hero.tsx      # Hero section
+    ├── Icons.tsx     # SVG icons
+    └── Projects.tsx  # Projects section
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Deploy to Vercel
 
-## Deploy on Vercel
+1. Push your code to GitHub
+2. Import the repository on [Vercel](https://vercel.com/new)
+3. Vercel will automatically detect Next.js and configure the build
+4. Click Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Or use the Vercel CLI:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm i -g vercel
+vercel
+```
+
+### Environment Variables
+
+No environment variables are required for basic deployment.
+
+## Customization
+
+### Update Personal Information
+
+- **Hero section**: Edit `src/components/Hero.tsx`
+- **Projects**: Edit the `projects` array in `src/components/Projects.tsx`
+- **About**: Edit `src/components/About.tsx`
+- **Metadata**: Edit `src/app/layout.tsx`
+
+### Styling
+
+- Global styles: `src/app/globals.css`
+- Tailwind config: `tailwind.config.ts`
+- Color scheme: Update CSS variables in `globals.css`
+
+## License
+
+MIT
