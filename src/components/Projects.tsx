@@ -11,6 +11,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "OrgChange",
+    description:
+      "Enterprise change management platform for tracking M&A integrations, SAP implementations, and organizational transformations. Features multi-project tracking, change saturation analysis, and impact assessment.",
+    tech: ["React", "TypeScript", "Tailwind CSS", "Recharts"],
+    github: "https://github.com/joshduffy/orgchange-tracker",
+    live: "https://orgchange.joshduffy.dev",
+    status: "Live",
+  },
+  {
     title: "M&A Workforce Integration Platform",
     description:
       "AI-powered workforce management tool for mergers and acquisitions. Natural language queries replace complex spreadsheet navigation - ask questions in plain English, get answers in 2 seconds.",
