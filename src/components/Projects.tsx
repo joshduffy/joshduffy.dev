@@ -102,7 +102,10 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 px-6">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-2xl font-bold mb-8">Projects</h2>
+        <h2 className="text-2xl font-bold mb-2">Projects</h2>
+        <p className="text-neutral-400 mb-8">
+          Side projects. Things I&apos;m tinkering with. Mostly local LLMs and tools I actually use.
+        </p>
         <div className="grid gap-6 sm:grid-cols-2">
           {projects.map((project) => (
             <ProjectCard key={project.title} project={project} />
