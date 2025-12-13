@@ -16,7 +16,7 @@ const projects: Project[] = [
       "AI-powered workforce management tool for mergers and acquisitions. Natural language queries replace complex spreadsheet navigation - ask questions in plain English, get answers in 2 seconds.",
     tech: ["Python", "FastAPI", "AI/NLP", "JavaScript"],
     github: "https://github.com/joshduffy/ma-platform",
-    live: "https://ma-platform-mvp.vercel.app",
+    live: "https://ma.joshduffy.dev",
     status: "Live",
   },
   {
