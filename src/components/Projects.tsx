@@ -11,6 +11,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "M&A Workforce Integration Platform",
+    description:
+      "AI-powered workforce management tool for mergers and acquisitions. Natural language queries replace complex spreadsheet navigation - ask questions in plain English, get answers in 2 seconds.",
+    tech: ["Python", "FastAPI", "AI/NLP", "JavaScript"],
+    github: "https://github.com/joshduffy/ma-platform",
+    live: "https://ma-platform-mvp.vercel.app",
+    status: "Live",
+  },
+  {
     title: "Local AI Stack",
     description:
       "Complete local AI infrastructure for Apple Silicon - Ollama + ComfyUI with zero cloud dependencies.",
