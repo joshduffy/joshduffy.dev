@@ -25,6 +25,15 @@ const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "WebSockets"],
     status: "Planned",
   },
+  {
+    title: "Learning Through Play",
+    description:
+      "Collection of interactive educational games for elementary students. Math, reading, science, coding - all browser-based with zero tracking.",
+    tech: ["HTML", "CSS", "JavaScript", "Game Design"],
+    status: "Live",
+    github: "https://github.com/joshduffy/learning-through-play",
+    live: "https://learn.joshduffy.dev",
+  },
 ];
 
 function StatusBadge({ status }: { status: Project["status"] }) {
