@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joshduffy.dev/sitemap.xml
