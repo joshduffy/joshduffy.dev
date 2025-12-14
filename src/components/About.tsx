@@ -6,7 +6,7 @@ export default function About() {
         <div className="space-y-4 text-lg text-neutral-300">
           <p>
             I lead transformations—M&amp;A integrations, enterprise system implementations,
-            organizational redesigns. The through-line: people navigating change.
+            organizational change management. The through-line: people navigating change.
           </p>
           <p>
             I run Change Managed, where I help companies through complex integrations
