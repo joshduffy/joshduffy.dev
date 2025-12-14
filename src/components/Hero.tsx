@@ -11,7 +11,7 @@ export default function Hero() {
           Josh Duffy
         </h1>
         <p className="text-lg sm:text-xl text-neutral-400 mb-8">
-          Building People, Products & Performance • Leading Transformation & Integration
+          Building things. Leading transformations and integrations.
         </p>
         <div className="flex justify-center gap-6">
           <a

@@ -5,9 +5,8 @@ export default function About() {
         <h2 className="text-3xl font-bold mb-8">About</h2>
         <div className="space-y-4 text-lg text-neutral-300">
           <p>
-            Navy veteran. Now I lead transformations—M&A integrations, enterprise
-            system implementations, organizational redesigns. The through-line in
-            all of it: people navigating change.
+            I lead transformations—M&amp;A integrations, enterprise system implementations,
+            organizational redesigns. The through-line: people navigating change.
           </p>
           <p>
             I run Change Managed, where I help companies through complex integrations
@@ -17,12 +16,12 @@ export default function About() {
           </p>
           <p>
             I build things too. Org structures, yes. But also project frameworks,
-            technical tools, infrastructure. Currently working on local AI inference
-            systems—optimizing LLMs for Apple Silicon, building agentic workflows,
-            zero telemetry.
+            technical tools, infrastructure. Currently tinkering with local AI—LLMs
+            on Apple Silicon, agentic workflows, zero telemetry.
           </p>
           <p>
-            Constantly curious, lifelong learner, alliteratively literate. Living in Philadelphia.
+            Word nerd. Well seasoned but not too salty. Constantly curious, lifelong
+            learner, alliteratively literate. Living in Philadelphia.
           </p>
         </div>
       </div>
