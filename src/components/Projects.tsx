@@ -55,7 +55,7 @@ const projects: Project[] = [
   {
     title: "Hostile Interfaces",
     description:
-      "Anthology of 8 intentionally terrible UI games. Bad UX is the mechanic - consent dialogs, password hell, CAPTCHA nightmares, and more. Victory comes from understanding hidden rules.",
+      "Anthology of 9 intentionally terrible UI games. Bad UX is the mechanic - consent dialogs, password hell, CAPTCHA nightmares, and more. Victory comes from understanding hidden rules.",
     tech: ["HTML", "CSS", "JavaScript", "Game Design"],
     status: "Live",
     github: "https://github.com/joshduffy/local-ai-stack/tree/main/hostile-interfaces",
