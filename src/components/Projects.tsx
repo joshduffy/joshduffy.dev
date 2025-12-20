@@ -37,11 +37,11 @@ const projects: Project[] = [
     status: "Live",
   },
   {
-    title: "Bones Brigade Control Deck",
+    title: "Local LLM",
     description:
-      "Retro skateboard-themed chat UI for uncensored Mistral/Mixtral models. A comparative study in permissive vs safety-tuned local LLMs. 80s skate aesthetic with CRT scanlines.",
+      "Minimal chat interface for Mistral and Mixtral models. Streaming responses via Ollama, Change Managed brand standards. Private by design — no data leaves your machine.",
     tech: ["Next.js", "TypeScript", "Mistral", "Mixtral", "Ollama"],
-    github: "https://github.com/joshduffy/bones-brigade",
+    github: "https://github.com/joshduffy/local-llm",
     status: "Live",
   },
   {
