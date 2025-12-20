@@ -31,17 +31,10 @@ const projects: Project[] = [
   {
     title: "Local AI Stack",
     description:
-      "Complete local AI infrastructure for Apple Silicon - Ollama + ComfyUI with zero cloud dependencies.",
-    tech: ["Python", "PyTorch", "Apple Silicon"],
+      "Complete local AI infrastructure for Apple Silicon. Next.js dashboard with streaming LLM chat, SDXL image generation via ComfyUI, job queue, and gallery. Zero cloud dependencies.",
+    tech: ["Next.js", "TypeScript", "SQLite", "Ollama", "ComfyUI"],
     github: "https://github.com/joshduffy/local-ai-stack",
     status: "Live",
-  },
-  {
-    title: "Bones Brigade Control Deck",
-    description:
-      "Custom web UI for local LLMs and Stable Diffusion with retro skateboard aesthetic.",
-    tech: ["Next.js", "TypeScript", "WebSockets"],
-    status: "Planned",
   },
   {
     title: "Learning Through Play",
