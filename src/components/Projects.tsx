@@ -13,8 +13,8 @@ const projects: Project[] = [
   {
     title: "OrgChange",
     description:
-      "Enterprise change management platform for M&A integrations and organizational transformations. Interactive org chart with React Flow, PowerPoint export with editable shapes, HRIS integrations (Workday, SAP, Oracle, ADP, BambooHR), global impact map, and change saturation analysis.",
-    tech: ["React", "TypeScript", "React Flow", "pptxgenjs", "Tailwind CSS"],
+      "Change management platform with interactive org charts (React Flow + dagre layouts), PowerPoint export via pptxgenjs with editable shapes, OAuth-ready HRIS integrations for Workday/SAP/Oracle/ADP/BambooHR, and a react-simple-maps global view. Built for M&A scenarios with change saturation scoring.",
+    tech: ["React 19", "TypeScript", "React Flow", "pptxgenjs", "Tailwind CSS"],
     live: "https://orgchange.joshduffy.dev",
     status: "Live",
   },
