@@ -37,6 +37,14 @@ const projects: Project[] = [
     status: "Live",
   },
   {
+    title: "Bones Brigade Control Deck",
+    description:
+      "Retro skateboard-themed chat UI for uncensored Mistral/Mixtral models. A comparative study in permissive vs safety-tuned local LLMs. 80s skate aesthetic with CRT scanlines.",
+    tech: ["Next.js", "TypeScript", "Mistral", "Mixtral", "Ollama"],
+    github: "https://github.com/joshduffy/bones-brigade",
+    status: "Live",
+  },
+  {
     title: "Learning Through Play",
     description:
       "Collection of interactive educational games for elementary students. Math, reading, science, coding - all browser-based with zero tracking.",
