@@ -39,7 +39,7 @@ const projects: Project[] = [
   {
     title: "Local LLM",
     description:
-      "Minimal chat interface for Mistral and Mixtral models. Streaming responses via Ollama, Change Managed brand standards. Private by design — no data leaves your machine.",
+      "Minimal chat interface for Mistral and Mixtral models. Streaming responses via Ollama. Private by design — no data leaves your machine.",
     tech: ["Next.js", "TypeScript", "Mistral", "Mixtral", "Ollama"],
     github: "https://github.com/joshduffy/local-llm",
     status: "Live",
