@@ -21,9 +21,9 @@ const projects: Project[] = [
   {
     title: "M&A Workforce Integration Platform",
     description:
-      "AI-powered workforce management tool for mergers and acquisitions. Natural language queries replace complex spreadsheet navigation - ask questions in plain English, get answers in 2 seconds.",
-    tech: ["Python", "FastAPI", "AI/NLP", "JavaScript"],
-    live: "https://ma.joshduffy.dev",
+      "AI-powered workforce management platform for M&A deals. Features a modern React UI with gradient sidebar, colorful stat dashboards, deal management, natural language queries, and OrgFlow visualization. Supports Excel/CSV import and real-time workforce analytics.",
+    tech: ["React", "TypeScript", "Zustand", "Tailwind CSS", "Vite"],
+    live: "https://ma-platform-browser.vercel.app",
     status: "Live",
   },
   {
