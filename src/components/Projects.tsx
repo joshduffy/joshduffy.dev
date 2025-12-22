@@ -23,7 +23,7 @@ const projects: Project[] = [
     description:
       "Workforce integration platform for M&A deals with Silicon Valley-themed demo (Hooli acquiring Pied Piper). Modern React UI with gradient sidebar, colorful stat dashboards, natural language queries, and Excel/CSV import. Features RSA-signed licenses and IndexedDB persistence.",
     tech: ["React", "TypeScript", "Zustand", "IndexedDB", "Tailwind CSS", "Vite"],
-    live: "https://ma-platform-browser.vercel.app",
+    live: "https://ma.joshduffy.dev",
     status: "Live",
   },
   {
