@@ -19,10 +19,10 @@ const projects: Project[] = [
     status: "Live",
   },
   {
-    title: "M&A Workforce Integration Platform",
+    title: "IntegrationOS (M&A Platform)",
     description:
-      "AI-powered workforce management platform for M&A deals. Features a modern React UI with gradient sidebar, colorful stat dashboards, deal management, natural language queries, and OrgFlow visualization. Supports Excel/CSV import and real-time workforce analytics.",
-    tech: ["React", "TypeScript", "Zustand", "Tailwind CSS", "Vite"],
+      "Workforce integration platform for M&A deals with Silicon Valley-themed demo (Hooli acquiring Pied Piper). Modern React UI with gradient sidebar, colorful stat dashboards, natural language queries, and Excel/CSV import. Features RSA-signed licenses and IndexedDB persistence.",
+    tech: ["React", "TypeScript", "Zustand", "IndexedDB", "Tailwind CSS", "Vite"],
     live: "https://ma-platform-browser.vercel.app",
     status: "Live",
   },
