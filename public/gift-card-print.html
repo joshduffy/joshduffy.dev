@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Card for Tom & Kelley</title>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @page {
+      size: 8.5in 11in;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: #fef7ed;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5in;
+    }
+
+    .card {
+      width: 7.5in;
+      height: 10in;
+      background: linear-gradient(180deg, #fffbf5 0%, #fef3e2 100%);
+      border: 4px solid #92400e;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75in 0.5in;
+      box-shadow: 0 8px 32px rgba(146, 64, 14, 0.2);
+    }
+
+    .bread-row {
+      display: flex;
+      gap: 24px;
+      font-size: 48px;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .recipients {
+      font-size: 52px;
+      color: #78350f;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 28px;
+      color: #92400e;
+      font-style: italic;
+    }
+
+    .qr-section {
+      text-align: center;
+    }
+
+    #qrcode {
+      padding: 24px;
+      background: white;
+      border-radius: 16px;
+      border: 3px solid #d97706;
+      display: inline-block;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    #qrcode img {
+      display: block;
+    }
+
+    .scan-text {
+      margin-top: 20px;
+      font-size: 22px;
+      color: #78350f;
+    }
+
+    .footer {
+      text-align: center;
+    }
+
+    .message {
+      font-size: 36px;
+      color: #b45309;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    .from {
+      font-size: 24px;
+      color: #92400e;
+      font-style: italic;
+    }
+
+    .pun {
+      margin-top: 16px;
+      font-size: 18px;
+      color: #a16207;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+        min-height: auto;
+      }
+
+      .card {
+        box-shadow: none;
+        border-radius: 0;
+        border: 3px solid #92400e;
+        width: 100%;
+        height: 100%;
+        max-width: 8.5in;
+        max-height: 11in;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="bread-row">
+      <span>🥐</span>
+      <span>🥖</span>
+      <span>🍞</span>
+      <span>🥨</span>
+      <span>🥯</span>
+    </div>
+
+    <div class="header">
+      <div class="recipients">Tom & Kelley</div>
+      <div class="subtitle">You&rsquo;ve got a gift waiting!</div>
+    </div>
+
+    <div class="qr-section">
+      <div id="qrcode"></div>
+      <div class="scan-text">Scan to unwrap your surprise</div>
+    </div>
+
+    <div class="footer">
+      <div class="message">Merry Christmas!</div>
+      <div class="from">&mdash; The Duffys</div>
+      <div class="pun">Knead we say more?</div>
+    </div>
+
+    <div class="bread-row">
+      <span>🥯</span>
+      <span>🥨</span>
+      <span>🍞</span>
+      <span>🥖</span>
+      <span>🥐</span>
+    </div>
+  </div>
+
+  <script>
+    // Generate QR code
+    var qr = qrcode(0, 'M');
+    qr.addData('https://joshduffy.dev/gift/tom-kelley');
+    qr.make();
+    document.getElementById('qrcode').innerHTML = qr.createImgTag(8, 16);
+  </script>
+</body>
+</html>
