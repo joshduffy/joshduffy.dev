@@ -2,6 +2,14 @@
 
 import { useState, useCallback } from 'react';
 
+// Prevent indexing
+if (typeof document !== 'undefined') {
+  const meta = document.createElement('meta');
+  meta.name = 'robots';
+  meta.content = 'noindex, nofollow';
+  document.head.appendChild(meta);
+}
+
 const BREAD_ITEMS = ['🥐', '🥖', '🥨', '🍞', '🥯'];
 
 const BREAD_PUNS = [

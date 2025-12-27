@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /gift/
+Disallow: /gift-card-print.html
+Disallow: /gift-qr-small.html
 
 Sitemap: https://joshduffy.dev/sitemap.xml
